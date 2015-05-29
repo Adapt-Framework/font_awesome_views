@@ -26,10 +26,14 @@ namespace extensions\font_awesome_views{
         const FLIP_HORIZONTAL = 'fa-flip-horizontal';
         const FLIP_VERTICAL = 'fa-flip-vertical';
         
-        public function __construct($icon, $size, $spin_style, $fix_width = false){
+        public function __construct($icon, $size = view_icon::NORMAL, $spin_style = view_icon::NONE, $fixed_width = false){
             parent::__construct('span');
             $this->add_class('fa');
             $this->add_class('fa-' . $icon);
+            
+            $this->size = $size;
+            $this->spin_type = $spin_style;
+            $this->fixed_width = $fixed_width;
         }
         
         public function pget_size(){

@@ -5,13 +5,15 @@
         <name>font_awesome_views</name>
         <type>extension</type>
         <version>1.0.0</version>
-        <namespace>/extension/font_awesome_views</namespace>
+        <namespace>\font_awesome\views</namespace>
         <description>Provides easy to use views for Font Awesome</description>
         <copyright>2015 Adapt Framework</copyright>
         <license>MIT</license>
         <website>http://www.adaptframework.com</website>
         <depends_on>
-            <bundle>font_awesome</bundle>
+            <bundle>
+                <name>font_awesome</name>
+            </bundle>
         </depends_on>
     </bundle>
 </adapt_framework>

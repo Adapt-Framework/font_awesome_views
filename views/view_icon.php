@@ -1,6 +1,6 @@
 <?php
 
-namespace extensions\font_awesome_views{
+namespace font_awesome\views{
     
     class view_icon extends view{
         

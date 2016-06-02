@@ -15,5 +15,10 @@
                 <name>font_awesome</name>
             </bundle>
         </depends_on>
+        <works_with>
+            <bundle>
+                <name>font_awesome</name>
+            </bundle>
+        </works_with>
     </bundle>
 </adapt_framework>

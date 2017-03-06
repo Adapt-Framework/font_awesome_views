@@ -5,6 +5,8 @@
         <name>font_awesome_views</name>
         <type>extension</type>
         <version>1.0.0</version>
+        <version_status>release</version_status>
+        <availability>public</availability>
         <namespace>\font_awesome\views</namespace>
         <version_status>release</version_status>
         <availability>public</availability>
